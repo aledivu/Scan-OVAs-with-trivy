@@ -15,7 +15,7 @@ photon-3-kube-v1.17.3+vmware.2.mf
 photon-3-kube-v1.17.3+vmware.2.ovf
 ```
 
-The vmdk file will contain the VM file system, so you can create an Ubuntu VM via [VMware Fusion}(https://www.vmware.com/uk/products/fusion.html), for example.
+The vmdk file will contain the VM file system, so you can create an Ubuntu VM via [VMware Fusion](https://www.vmware.com/uk/products/fusion.html), for example.
 Once this is done, you can mount the file system on a specific directory (I called it `tkg-dir`) via `mount /dev/sdb3 /path/to/tkg-dir`.
 If you `ls` into the `tkg-dir` directory, you will see the whole file system.
 
