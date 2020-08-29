@@ -32,7 +32,7 @@ docker image ls
 ```
 to pick the IMAGE ID
 ```
-docker tag IMAGE ID harbor.tanzu-demos.co.uk/tkg-ova
+docker tag IMAGE ID <your.harbor.registry.url>/<your-harbor-repo>
 ```
 5. Upload onto Harbor:
 `docker login <your.harbor.registry.url> -u <username> -p <password>`
