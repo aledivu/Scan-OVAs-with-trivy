@@ -1,4 +1,4 @@
-# Scan-OVAs-with-trivy
+# Scan OVAs with trivy
 
 An OVA file is a VM image and it is a popular format to package VM images. Tanzu Kubernetes Grid (TKG) releases for vSphere are packaged and shipped as OVAs. These OVAs will contain some of the TKG control plane images (like kube-apiserver, kube-proxy, kube-scheduler etc. Note that additional images will be downloaded from vmware registry during the TKG bootstrap).
 Currently, there are two OVAs that you will download when planning to deploy TKG on vSphere 6.7u3 (the ones here are the ones for TKG 1.1.0):
